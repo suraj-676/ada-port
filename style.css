@@ -203,6 +203,8 @@
 .skillitem{
     display: flex;
     align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900px;
 }
 
 .skill {

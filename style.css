@@ -16,6 +16,8 @@
     font-family: 'Fira Sans', sans-serif;
     /* width: 434px; */
     height: 100vh;
+    transition: transform 0.3s ease-in;
+    position: absolute              ;
 
 }
 
@@ -88,6 +90,8 @@
     font-size: 45px;
 
 }
+
+
 .name {
 
     font-size: 50px;
@@ -96,6 +100,8 @@
 
 
 }
+
+
 .about{
 
     font-size: 50px;
@@ -111,6 +117,8 @@
     margin-left: 1rem;
     color: black;    
 }
+
+
 .buttons {
 
     margin-top: 32px;;
@@ -133,18 +141,18 @@
     color: dodgerblue;
 }
 
-.conatctform{
+.contactform{
 
     font-family: 'Fira Sans', sans-serif;
-    padding-top: 144px;
     padding: 0 34px;
+    margin: 0 88px;
 }
 
 .contactform h1{
 
     font-family: 'Source Code Pro', monospace;
     /* text-align: center; */
-    padding: 12px 0;
+    /* padding: 12px 0; */
     font-weight: bold;  
     
 
@@ -167,7 +175,7 @@
 }
 
 .contactform form div input{
-    width: 26vw;
+    /* width: 26vw; */
     border-radius: 5px;
     margin: 6px 0 0 0;
     padding: 3px;
@@ -198,6 +206,21 @@
 
 }
 
+.intro {
+    margin: 0 88px;
+}
+
+.intro  h2 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+
+}
+
+.intro p {
+    font-family:  'Source Code Pro', monospace;
+    margin: 12px;
+}
+
 .skillcontainer{
 
     padding: 12px;
@@ -217,15 +240,16 @@
     height: 6px;
     background-color: red;
     border: 2px solid black;
-
-
-
+   
 }
+
+
 .projectcontainer{
     align-items: center;
-    background-color: pink;
+    /* background-color: pink; */
     width: 100%;
     display: grid;
+    margin: 0 88px;
 }
 
 .projectcontainer img{
@@ -240,6 +264,8 @@
         position: absolute;
    
 }
+
+
 .hamburger {
     position: absolute;
     cursor: pointer;
@@ -248,8 +274,15 @@
 
 }
 
+
+.ham{
+    margin-top: 10px;
+}
+
+
 .cross {
-    margin-left: 155px;
+    margin-left: 165px;
+    margin-top: 10px;
 }
 
 @media( max-width: 1615px) {
@@ -258,5 +291,13 @@
         transform: translate(-443px, 0px);
         position: absolute;
    } */
+}
+
+.devpic {
+    display: none;
+}
+
+.intro, .contactform{
+    margin: 50px 8px;
 }
 

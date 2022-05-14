@@ -65,7 +65,7 @@
 }
 
 .devInfo {
-
+    font-size: 16px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -87,14 +87,14 @@
 
 .hello {
 
-    font-size: 45px;
+    font-size: 3em;
 
 }
 
 
 .name {
 
-    font-size: 50px;
+    font-size: 3em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 
@@ -104,14 +104,14 @@
 
 .about{
 
-    font-size: 50px;
+    font-size: 2.5em;
 
 
 }
 
 .moreAbout {
 
-    font-size: 22px;
+    font-size: 2em;
     margin-top: 23px;
     font-family: 'Fira Sans', sans-serif;
     margin-left: 1rem;
@@ -121,7 +121,8 @@
 
 .buttons {
 
-    margin-top: 32px;;
+    margin-top: 32px;
+    font-size: 16px;
 }
 
 .buttons button {
@@ -130,8 +131,8 @@
     color: white;
     background-color: dodgerblue;
     font-weight: bold;
-    font-size: 15px;
-    margin: 0 3px;
+    font-size: 2em;
+    margin: 3px 3px;
     cursor: pointer;
 
 }
@@ -164,6 +165,12 @@
     margin: 10px;
     display: flex;
     flex-direction: column;
+}
+
+
+.contactform{ 
+
+    margin: 0 40px;
 }
 
 #emailHelp  {
@@ -293,11 +300,27 @@
    } */
 }
 
-.devpic {
-    display: none;
+.buttons {
+
+    font-size: 6px;
 }
 
+.devInfo {
+    font-size: 10px;
+}
+
+
+.devPic {
+
+    /* display: none; */
+
+}
+
+
+
 .intro, .contactform{
+
     margin: 50px 8px;
+
 }
 

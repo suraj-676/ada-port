@@ -1,4 +1,4 @@
-console.log('Hello world')
+// console.log('Hello world')
 document.querySelector('.cross').style.display = 'none';
 document.querySelector('.hamburger').addEventListener("click", () => {
     document.querySelector('.sidebar').classList.toggle('sidebarGo');

@@ -77,7 +77,9 @@
 
     height: 52vh;
     border-radius: 50%;
-    margin-right: 10px;
+    /* margin-right: 10px; */
+    margin-left: 5vw;
+    display: flex;
 
 
 }
@@ -87,6 +89,7 @@
 .hello {
 
     font-size: 3em;
+    margin-left: 1.2vw;
 
 }
 
@@ -96,6 +99,7 @@
     font-size: 3em;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
+    margin-left: 1.2vw;
 
 
 }
@@ -104,6 +108,8 @@
 .about{
 
     font-size: 2.5em;
+    margin-left: 1.2vw;
+
 
 
 }
@@ -214,11 +220,13 @@
 
 .intro {
     margin: 0 88px;
+    /* margin-left: 50vw; */
 }
 
 .intro  h2 {
     font-family: 'Fira Sans', sans-serif;
     margin: 12px;
+    margin-left: 5vw;
 
 }
 
@@ -230,6 +238,7 @@
 .skillcontainer{
 
     padding: 12px;
+    margin-left: 4vw;
    
 }           
 
@@ -296,12 +305,10 @@
     margin-top: 10px;
 }
 
-@media( max-width: 1615px) {
+@media( max-width: 1515px) {
   
 
-    *{
-        /* background-color: green; */
-    }
+    
     .devPic {
 
         display: none;

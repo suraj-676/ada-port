@@ -76,12 +76,13 @@
 
 .devPic img {
 
-    height: 25rem;
+    height: auto;
     /* border-radius: 180%; */
     /* margin-right: 10px; */
     border-radius: 50%;
-    margin-left: 5vw;
     display: flex;
+    width: 200%;
+    margin-top: 4rem;
 
 
 }
@@ -335,9 +336,9 @@
   
 
     
-    .devPic {
+    .devPic img{
 
-        display: none;
+        /* display: none; */
 
        
     }

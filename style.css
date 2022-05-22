@@ -9,6 +9,10 @@
 
 }
 
+body {
+ background-color: #735977;
+}
+
 
 
 .sidebar{
@@ -240,26 +244,34 @@
 
 .skillcontainer{
 
-    padding: 12px;
-    margin-left: 1vw;
+    padding: 10px;
    
 }           
+
+.skillcontainer img {
+    height: 13vw;
+    width: 13vw;
+    padding: 1vw;
+    max-width: 10vw;
+    margin-top: 13vw;
+}
+
+
 
 .skillitem{
     display: flex;
     align-items: center;
     font-family: 'Source Code Pro', monospace;
-    font-weight: 900px;
 }
 
-.skill {
+/* .skill {
 
     width: 265px;
     height: 6px;
-    background-color: red;
+    background-color: white;
     border: 2px solid black;
    
-}
+} */
 
 
 .projectContainer{

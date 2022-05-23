@@ -95,7 +95,7 @@
 
 .hello {
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 1.2rem;
 
 }
@@ -103,7 +103,7 @@
 
 .name {
 
-    font-size: 3em;
+    font-size: 2rem;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     margin-left: 1.2vw;
@@ -114,7 +114,7 @@
 
 .about{
 
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 1.2vw;
 
 
@@ -242,16 +242,12 @@
     margin: 12px;
 }
 
-.row::after {
-    display: flex;
-    box-sizing: border-box;
-  }
+
 
 .row img {
     height: 6vw;
     width: 12vw;
     margin-left:  1.2vw;
-    max-height: 14rem;
     /* padding: 1vw;
     max-width: 10vw;
     margin-left: 3rem;
